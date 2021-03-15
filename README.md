@@ -5,20 +5,20 @@
 <p align="center">Projeto teste Code7</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/finance-api?color=purple">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/finance-api?color=9f97d2">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/finance-api?color=purple">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/finance-api?color=9f97d2">
 
   <a href="https://github.com/vilmarsitiodigital/finance-api/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/finance-api?color=purple">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/finance-api?color=9f97d2">
   </a>
 
   <a href="https://github.com/vilmarsitiodigital/finance-api/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/finance-api?color=purple">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/finance-api?color=9f97d2">
   </a>
 
   <a href="https://github.com/vilmarsitiodigital/finance-api/blob/main/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/finance-api?color=purple">
+    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/finance-api?color=9f97d2">
   </a>
 </p>
 
