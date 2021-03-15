@@ -5,12 +5,14 @@ import CreateDebitController from '@modules/debits/infra/http/controllers/Create
 import UpdateDebitController from '@modules/debits/infra/http/controllers/UpdateDebitController';
 import DeleteDebitController from '@modules/debits/infra/http/controllers/DeleteDebitController';
 import ListDebitsController from '@modules/debits/infra/http/controllers/ListDebitsController';
+import ShowDebitController from '@modules/debits/infra/http/controllers/ShowDebitController';
 
 const debitsRouter = Router();
 const createDebitController = new CreateDebitController();
 const updateDebitController = new UpdateDebitController();
 const deleteDebitController = new DeleteDebitController();
 const listDebitsController = new ListDebitsController();
+const showDebitController = new ShowDebitController();
 
 // salvar
 debitsRouter.post(
@@ -56,5 +58,16 @@ debitsRouter.delete(
 
 // listar todos débitos ou somente o relacionado ao user_id
 debitsRouter.get('/', listDebitsController.index);
+
+// listar um débito
+debitsRouter.get(
+  '/show/:id',
+  celebrate({
+    [Segments.PARAMS]: {
+      id: Joi.string().required(),
+    },
+  }),
+  showDebitController.index,
+);
 
 export default debitsRouter;
