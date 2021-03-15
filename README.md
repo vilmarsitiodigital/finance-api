@@ -1,32 +1,28 @@
-<h1 align="center">
-  <img alt="GoStack" src="https://res.cloudinary.com/vilmarbatista/image/upload/v1614284469/Development/GoBarber/logo_digivp.svg" width="200px" />
-</h1>
-
 <h3 align="center">
-  Express Application for GoBarber project
+  Api Express para gerenciamento financeiro
 </h3>
 
-<p align="center">The best way to schedule your service!</p>
+<p align="center">Projeto teste Code7</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/gobarber-api?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/finance-api?color=%26E6893">
 
   <a href="https://www.linkedin.com/in/vilmarbatista/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-vilmar-orange">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/gobarber-api?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/finance-api?color=%26E6893">
 
-  <a href="https://github.com/vilmarsitiodigital/gobarber-api/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/gobarber-api?color=%23FF9000">
+  <a href="https://github.com/vilmarsitiodigital/finance-api/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/finance-api?color=%26E6893">
   </a>
 
-  <a href="https://github.com/vilmarsitiodigital/gobarber-api/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/gobarber-api?color=%23FF9000">
+  <a href="https://github.com/vilmarsitiodigital/finance-api/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/finance-api?color=%26E6893">
   </a>
 
-  <a href="https://github.com/vilmarsitiodigital/gobarber-api/blob/main/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/gobarber-api?color=%23FF9000">
+  <a href="https://github.com/vilmarsitiodigital/finance-api/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/finance-api?color=%26E6893">
   </a>
 </p>
 
@@ -39,36 +35,28 @@
 </p>
 
 <p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=GoBarber%20-%20VilmarBatistaf&uri=https%3A%2F%2Fgithub.com%2Fvilmarsitiodigital%2Fgobarber-api%2Fblob%2Fmain%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=FiNance%20-%20VilmarBatistaf&uri=https%3A%2F%2Fgithub.com%2Fvilmarsitiodigital%2Ffinance-api%2Fblob%2Fmain%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
-## 💇🏻‍♂️ About the project
+## 💵🏻‍♂️ About the project
 
-This api provides everything needed to organize appointments between the barbers and customers.
+O objetivo desse projeto é o relacionamento de dívidas com nossos clientes (usuários do JSONPlaceholder). 
 
-Customers can choose the best time available to them.
+Cada usuário é uma pessoa com dívidas, na qual iremos fazer o cadastro no nosso sistema.
 
-Providers can see all their appointments, manage the times, also see if one client canceled the schedule.
-
-To see the **web client**, click here: [GoBarber Web](https://github.com/vilmarsitiodigital/gobarber-web)<br />
-To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/vilmarsitiodigital/gobarber-mobile)
+Para acessar o **web client**, clique aqui: [FiNance Web](https://github.com/vilmarsitiodigital/finance-web)<br />
 
 ## 🚀 Technologies
 
-Technologies that I used to develop this api
+Tecnologias que usei para desenvolver esta API
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
-- [Multer](https://github.com/expressjs/multer)
 - [TypeORM](https://typeorm.io/#/)
-- [JWT-token](https://jwt.io/)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-- [PostgreSQL](https://www.postgresql.org/)
+- [MongoDB](https://www.mongodb.com/)
 - [Date-fns](https://date-fns.org/)
 - [Jest](https://jestjs.io/)
-- [SuperTest](https://github.com/visionmedia/supertest)
-- [Husky](https://github.com/typicode/husky)
 - [Commitlint](https://github.com/conventional-changelog/commitlint)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Eslint](https://eslint.org/)
@@ -77,20 +65,20 @@ Technologies that I used to develop this api
 
 ## 💻 Getting started
 
-Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomniaButton) button
+Importe `Insomnia.json` no aplicativo Insomnia ou clique em [Run in Insomnia](#insomniaButton)
 
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
-- One instance of [PostgreSQL](https://www.postgresql.org/)
+- Uma instância de [MongoDB](https://www.mongodb.com/)
 
-> Obs.: I recommend use docker
+> Obs.: Eu recomendo usar docker
 
-**Clone the project and access the folder**
+**Clonar o projeto e acessar a pasta**
 
 ```bash
-$ git clone https://github.com/vilmarsitiodigital/gobarber-api.git && cd gobarber-api
+$ git clone https://github.com/vilmarsitiodigital/finance-api.git && cd finance-api
 ```
 
 **Follow the steps below**
@@ -105,18 +93,12 @@ $ yarn
 $ cp .env.example .env
 
 # Create the instance of postgreSQL using docker
-$ docker run --name gobarber-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=gobarber -e POSTGRES_PASSWORD=docker \
-              -p 5432:5432 -d postgres
 
 # Create the instance of mongoDB using docker
-$ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
+$ docker run --name finance-mongodb -p 27017:27017 -d -t mongo
 
 # Create the instance of redis using docker
-$ docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
-
-# Once the services are running, run the migrations
-$ yarn typeorm migration:run
+$ docker run --name finance-redis -p 6379:6379 -d -t redis:alpine
 
 # To finish, run the api service
 $ yarn dev:server
@@ -132,14 +114,14 @@ $ yarn dev:server
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork vilmarsitiodigital/gobarber-api
+$ gh repo fork vilmarsitiodigital/finance-api
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-api
+$ git clone your-fork-url && cd finance-api
 
 # Create a branch with your feature
 $ git checkout -b my-feature
