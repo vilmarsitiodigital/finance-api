@@ -5,24 +5,20 @@
 <p align="center">Projeto teste Code7</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/finance-api?color=%26E6893">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/finance-api?color=purple">
 
-  <a href="https://www.linkedin.com/in/vilmarbatista/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-vilmar-orange">
-  </a>
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/finance-api?color=%26E6893">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/finance-api?color=purple">
 
   <a href="https://github.com/vilmarsitiodigital/finance-api/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/finance-api?color=%26E6893">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/finance-api?color=purple">
   </a>
 
   <a href="https://github.com/vilmarsitiodigital/finance-api/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/finance-api?color=%26E6893">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/finance-api?color=purple">
   </a>
 
   <a href="https://github.com/vilmarsitiodigital/finance-api/blob/main/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/finance-api?color=%26E6893">
+    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/finance-api?color=purple">
   </a>
 </p>
 
@@ -38,13 +34,13 @@
   <a href="https://insomnia.rest/run/?label=FiNance%20-%20VilmarBatistaf&uri=https%3A%2F%2Fgithub.com%2Fvilmarsitiodigital%2Ffinance-api%2Fblob%2Fmain%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
-## 💵🏻‍♂️ About the project
+## 💵 About the project
 
 O objetivo desse projeto é o relacionamento de dívidas com nossos clientes (usuários do JSONPlaceholder). 
 
 Cada usuário é uma pessoa com dívidas, na qual iremos fazer o cadastro no nosso sistema.
 
-Para acessar o **web client**, clique aqui: [FiNance Web](https://github.com/vilmarsitiodigital/finance-web)<br />
+Para acessar o **web client**, clique aqui: [Finance Web](https://github.com/vilmarsitiodigital/finance-web)<br />
 
 ## 🚀 Technologies
 
