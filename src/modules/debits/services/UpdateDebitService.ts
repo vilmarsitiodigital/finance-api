@@ -48,23 +48,18 @@ class UpdateDebitService {
       );
     }
 
-    const findDebit = await this.debitsRepository.findById(id);
-    if (!findDebit) {
+    const debit = await this.debitsRepository.findById(id);
+    if (!debit) {
       throw new AppError('Id resource not found');
     }
 
     const debitDate = startOfHour(date);
-    const debit = await this.debitsRepository.update({
-      id,
-      user_id,
-      reason,
-      date: debitDate,
-      value,
-    });
+
+    Object.assign(debit, { user_id, reason, date: debitDate, value });
 
     await this.cacheProvider.invalidate(`debits-list`);
 
-    return debit;
+    return this.debitsRepository.save(debit);
   }
 }
 

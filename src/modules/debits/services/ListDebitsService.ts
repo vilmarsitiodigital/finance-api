@@ -20,8 +20,8 @@ class ListDebitsService {
   ) {}
 
   public async execute({ user_id }: IRequest): Promise<Debit[]> {
-    let debits = await this.cacheProvider.recover<Debit[]>(`debits-list`);
-
+    // let debits = await this.cacheProvider.recover<Debit[]>(`debits-list`);
+    let debits;
     if (!debits) {
       debits = await this.debitsRepository.findAllDebits({
         user_id,

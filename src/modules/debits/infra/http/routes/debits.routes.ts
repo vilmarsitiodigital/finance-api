@@ -56,6 +56,17 @@ debitsRouter.delete(
   deleteDebitController.delete,
 );
 
+// deletar todos débitos do usuário
+debitsRouter.delete(
+  '/all/:id',
+  celebrate({
+    [Segments.PARAMS]: {
+      id: Joi.number().required(),
+    },
+  }),
+  deleteDebitController.all,
+);
+
 // listar todos débitos ou somente o relacionado ao user_id
 debitsRouter.get('/', listDebitsController.index);
 

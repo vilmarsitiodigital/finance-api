@@ -45,6 +45,23 @@ class DeleteDebitService {
 
     await this.cacheProvider.invalidate(`debits-list`);
   }
+
+  public async all(user_id: number): Promise<void> {
+    if (!user_id) {
+      throw new AppError(
+        'You not can delete a debit without the required parameters',
+      );
+    }
+
+    const findDebit = await this.debitsRepository.findByUser(user_id);
+    if (!findDebit) {
+      throw new AppError('Id resource not found');
+    }
+
+    await this.debitsRepository.deleteAll(user_id);
+
+    await this.cacheProvider.invalidate(`debits-list`);
+  }
 }
 
 export default DeleteDebitService;
